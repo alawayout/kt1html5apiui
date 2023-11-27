@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+  
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+  
+tr {
+  border: 1px solid black;
+}
+td {
+  border: 1px solid black;
+  width: 300px;
+  text-align: center;
+}
+th {
+  border: 1px solid black;
+  text-align: center;
+  width: 300px;
+}
+#subBtn {
+  padding: 10px;
+  border: none;
+  color: black;
+  font-weight: 500;
+}
+#clear {
+  padding: 10px;
+  border: none;
+  color: black;
+  font-weight: 500;
+}

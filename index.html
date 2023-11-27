@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local&Session storge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="block">
+    <select name="" id="selectStorage" style="margin: 50px auto;">
+      <option value="session">Загрузить из Session storage</option>
+      <option value="local" selected="true">Загрузить из Local storage</option>
+    </select>
+    <input type="text" name="" id="key" placeholder="Введите ключ">
+    <input type="text" name="" id="value" placeholder="Введите значение">
+    <button id="subBtn">Сохранить</button>
+    <button id="clear">Очистить хранилище!</button>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Ключ</th>
+        <th>Значение</th>
+        <th><span>Удалить</span></th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  <script src="index.js"></script>
+</body>
+</html>
